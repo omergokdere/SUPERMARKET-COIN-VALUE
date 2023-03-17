@@ -1,0 +1,44 @@
+﻿Build started 22.12.2012 17:18:12.
+     1>Project "c:\Users\Gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\SUPERMARKET COIN VALUE\SUPERMARKET COIN VALUE.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\SUPERMARKET COIN VALUE.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt SupermarketCoin.c
+         SupermarketCoin.c
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\gokdere\documents\visual studio 2010\projects\supermarket coin value\supermarket coin value\supermarketcoin.c(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SUPERMARKET COIN VALUE.exe.embed.manifest.res" "Debug\SUPERMARKET COIN VALUE_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SUPERMARKET COIN VALUE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.lib" /MACHINE:X86 "Debug\SUPERMARKET COIN VALUE.exe.embed.manifest.res"
+         Debug\SupermarketCoin.obj
+       Manifest:
+         Deleting file "Debug\SUPERMARKET COIN VALUE.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SUPERMARKET COIN VALUE.exe.embed.manifest" /manifest "Debug\SUPERMARKET COIN VALUE.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SUPERMARKET COIN VALUE.exe.embed.manifest.res" "Debug\SUPERMARKET COIN VALUE_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SUPERMARKET COIN VALUE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.lib" /MACHINE:X86 "Debug\SUPERMARKET COIN VALUE.exe.embed.manifest.res"
+         Debug\SupermarketCoin.obj
+         SUPERMARKET COIN VALUE.vcxproj -> c:\users\gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\Debug\SUPERMARKET COIN VALUE.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SUPERMARKET COIN VALUE.unsuccessfulbuild".
+         Touching "Debug\SUPERMARKET COIN VALUE.lastbuildstate".
+     1>Done Building Project "c:\Users\Gokdere\documents\visual studio 2010\Projects\SUPERMARKET COIN VALUE\SUPERMARKET COIN VALUE\SUPERMARKET COIN VALUE.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39
